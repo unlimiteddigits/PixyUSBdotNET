@@ -31,6 +31,7 @@ namespace PixyUSBNet
         Size320x200 = 0x21
     }
 
+    //Change 1
     public class PixyConnection
     {
         [DllImport("kernel32.dll", EntryPoint = "LoadLibrary")]
